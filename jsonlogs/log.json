@@ -1,0 +1,58 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;successs-login;;2",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "Successs Login",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user open Self Services web page \"Prod\"",
+            "result": {
+              "duration": 495000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user login with valid credentials \"premexprod@99minutos.com\" \"99Minutos.com\"",
+            "result": {
+              "duration": 825000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should see home page",
+            "result": {
+              "duration": 3993000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login",
+    "uri": "cypress/Selfservices/e2e/features/1.-login.feature"
+  }
+]

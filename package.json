@@ -1,0 +1,33 @@
+{
+  "name": "automated-pwa-punto99-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run --browser chrome",
+    "cypress:open": "cypress open --browser chrome",
+    "cypress:run": "cypress run --browser chrome",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAaronBernal/automated-PWA-Punto99-test.git"
+  },
+  "author": "Automation",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JAaronBernal/automated-PWA-Punto99-test/issues"
+  },
+  "homepage": "https://github.com/JAaronBernal/automated-PWA-Punto99-test#readme",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.17.1",
+    "cypress-file-upload": "^5.0.8",
+    "esbuild": "^0.18.12",
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1"
+  }
+}
