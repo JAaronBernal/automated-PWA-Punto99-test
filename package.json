@@ -22,7 +22,7 @@
   "homepage": "https://github.com/JAaronBernal/automated-PWA-Punto99-test#readme",
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
-    "cypress": "^12.17.1",
+    "cypress": "^12.17.2",
     "cypress-file-upload": "^5.0.8",
     "esbuild": "^0.18.12",
     "multiple-cucumber-html-reporter": "^3.4.0"
