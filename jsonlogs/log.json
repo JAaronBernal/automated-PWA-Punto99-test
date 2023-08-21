@@ -12,9 +12,9 @@
           {
             "keyword": "Given ",
             "line": 4,
-            "name": "A user open Self Services web page \"Prod\"",
+            "name": "login \"Sandbox\"",
             "result": {
-              "duration": 1736000000,
+              "duration": 1536000000,
               "status": "passed"
             },
             "match": {
@@ -24,9 +24,9 @@
           {
             "keyword": "When ",
             "line": 5,
-            "name": "the user login with valid credentials \"premexprod@99minutos.com\" \"99Minutos.com\"",
+            "name": "credentials \"5623613748\"",
             "result": {
-              "duration": 921000000,
+              "duration": 6335000000,
               "status": "passed"
             },
             "match": {
@@ -36,9 +36,9 @@
           {
             "keyword": "Then ",
             "line": 6,
-            "name": "user should see home page",
+            "name": "home page",
             "result": {
-              "duration": 4000000,
+              "duration": 6823000000,
               "status": "passed"
             },
             "match": {
@@ -53,6 +53,62 @@
     "keyword": "Feature",
     "line": 1,
     "name": "Login",
-    "uri": "cypress/Selfservices/e2e/features/1.-login.feature"
+    "uri": "cypress/Punto99/e2e/features/1.-login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "report-my-earnings;download-report;;2",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Download report",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "login in P99 \"Sandbox\" \"5623613748\"",
+            "result": {
+              "duration": 13763000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enter in My Earnings",
+            "result": {
+              "duration": 1615000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "donwload de report",
+            "result": {
+              "duration": 3327000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "report-my-earnings",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Report my Earnings",
+    "uri": "cypress/Punto99/e2e/features/2.-report.feature"
   }
 ]

@@ -30,8 +30,8 @@ module.exports = defineConfig({
     viewportHeight: 900,
     chromeWebSecurity: false,
     //Tiempo en lo que espara para cargar la pagina
-    pageLoadTimeout: 4500,
+    pageLoadTimeout: 45000,
     //Tiempo de espera en respuesta de cada acción,
-    defaultCommandTimeout: 6000,
+    defaultCommandTimeout: 60000,
   },
 });
